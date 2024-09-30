@@ -1,0 +1,33 @@
+final protocol of static for IFSICP=  2
+level:  1 spin,occup,ekin,esp,variance =  1  1.00000  0.11484 -0.37154  6.7567E-10
+level:  2 spin,occup,ekin,esp,variance =  1  0.00000  0.15068 -0.26174  1.9223E-06
+level:  3 spin,occup,ekin,esp,variance =  1  0.00000  0.14658 -0.21599  2.1017E-05
+level:  4 spin,occup,ekin,esp,variance =  1  0.00000  0.14657 -0.21599  2.8053E-05
+level:  5 spin,occup,ekin,esp,variance = -1  1.00000  0.11484 -0.37154  6.7567E-10
+level:  6 spin,occup,ekin,esp,variance = -1  0.00000  0.15068 -0.26174  1.9223E-06
+level:  7 spin,occup,ekin,esp,variance = -1  0.00000  0.14658 -0.21599  2.1017E-05
+level:  8 spin,occup,ekin,esp,variance = -1  0.00000  0.14657 -0.21599  2.8053E-05
+binding energy =   -0.8093074   -0.8093074
+total variance =  6.7567E-10
+sp pot, sp kin, rearr, nonlocal=   -0.97276    0.22969   -0.02291    0.00000
+e_coul: i-i , e-i , e-e , total=    0.35255   -1.76451    0.85765   -0.55431
+mon.:   2.00
+dip.IN :    0.00000    0.00000    0.00000
+dip.OUT :    0.00000    0.00000    0.00000
+quadrupole moments:
+xx,yy,zz:     9.0169     6.2984     6.2984
+xy,zx,zy:     0.0000     0.0000     0.0000
+spindip.:     0.0000    -0.0000    -0.0000
+rms radius:     4.6491, average density,k_F:  3.68064E-03  0.41280    
+protocol of s.p. moments:
+ state energy x y z variance xx yy zz xy xz yz
+   1 -0.372 -0.00 -0.00 -0.00  4.65      9.0    6.3    6.3    0.0    0.0   -0.0
+   2 -0.262  0.00 -0.00 -0.00  6.67     29.5    7.5    7.5   -0.0   -0.0    0.0
+   3 -0.216 -0.00  0.00 -0.00  6.83     11.9   26.1    8.7   -0.0   -0.0   -0.0
+   4 -0.216 -0.00 -0.00  0.00  6.83     11.9    8.7   26.1   -0.0   -0.0    0.0
+   5 -0.372 -0.00 -0.00 -0.00  4.65      9.0    6.3    6.3   -0.0    0.0   -0.0
+   6 -0.262  0.00 -0.00 -0.00  6.67     29.5    7.5    7.5   -0.0   -0.0    0.0
+   7 -0.216 -0.00  0.00 -0.00  6.83     11.9   26.1    8.7   -0.0   -0.0   -0.0
+   8 -0.216 -0.00 -0.00  0.00  6.83     11.9    8.7   26.1   -0.0   -0.0    0.0
+  average:   0.00  0.00  0.00  6.31
+

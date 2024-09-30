@@ -1,0 +1,4 @@
+
+real	80m38,245s
+user	80m34,744s
+sys	0m2,552s

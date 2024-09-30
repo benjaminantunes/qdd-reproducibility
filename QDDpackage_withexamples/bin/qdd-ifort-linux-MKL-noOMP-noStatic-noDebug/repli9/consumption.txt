@@ -1,0 +1,19 @@
+--------------------------
+
+--------------------------
+Total energy: 4014.98 Joules, including:
+	CPU energy: 4014.98 Joules
+	GPU energy: 0.00 Joules
+--------------------------
+
+--------------------------
+Total energy: 2723.29 Joules, including:
+	CPU energy: 2723.29 Joules
+	GPU energy: 0.00 Joules
+--------------------------
+
+--------------------------
+Total energy: 2762.77 Joules, including:
+	CPU energy: 2762.77 Joules
+	GPU energy: 0.00 Joules
+--------------------------

@@ -1,0 +1,627 @@
+  title is now: Na2-egs      
+ kxbox,kybox,kzbox:          64          64          64
+ h bar squared over two m electron   1.0000000000000000     
+  testprint EYE=               (0.0000000000000000,1.0000000000000000)
+  dkx,dky,dkz=  0.12271846303085129       0.12271846303085129       0.12271846303085129     
+  testprint: nx2,ny2,nz2=          64          64          64
+  testprint: kdfull2,kfft2=      262144         257
+ wisdom_fftw.dat not found, creating it
+the following options are used:
+
+Perdew-Wang 92 exchange-correlation functional
+ serial code: max. NUMBER of wf=          10
+ spin code 
+ static step: Hamiltonian in subspace diagonalized
+Fourier propagation using FFTW3 library
+exact coulomb solver
+faster TV propagator
+time step by T-V splitting
+ _______________________________________________
+
+ compiled parameters
+
+ maximum compiled sizes x y z          64          64          64
+ maximum number of ions           2
+
+ units
+
+ h bar   1.0000000000000000     
+ e2   2.0000000000000000     
+ m electron  0.50000000000000000     
+ _______________________________________________
+
+soft local pseudopotentials (errf)
+ initialize wavefunctions with h.o.
+ no absorbing b.c.
+molecular dynamics: leap-frog step
+ energy computed directly
+sic activated: ADSIC
+ kxbox,kybox,kzbox=    64    64    64
+ nelect,nion,nstate=     2     2    10
+ tspindip,irotat,phirot= F  0   0.00
+ boost: centfx,centfy,centfz=    0.00    0.00    0.00
+ shift: shiftinix,y,z=    0.00    0.00    0.00
+ irest,tstat,dt1=  0 F  0.050
+ laser:
+ itft,tnode,deltat,tpeak,omega,e0=  3   0.000   0.000   0.000   0.000   0.000
+ e1x,e1y,e1z,e2x,e2y,e2z,phi=   1.000   0.000   1.000   0.000   0.000   1.000   0.000
+     # electr.:  2# ions:  2
+==========
+
+NUMBER of wave-functions nstate =   1
+initialisation : osfac=1.00
+quantumnumbers : 
+ ****   5   0
+nx=  32   ny=  32   nz=  32
+dx=0.80   dy=0.80   dz=0.80
+damped gradient step :
+epswf=  0.5000       e0dmp=  0.9000    
+jellium background :
+radjel=   4.000       surjel=   1.000    
+set of fixed deformation parameters (IN hill-wheeler-coordinates) :
+bbeta=0.00   gamma=   0.
+
+
+
+ _______________________________________________
+
+  dynamic parameters have been read :
+ _______________________________________________
+
+ ionic code - number of ions           2           1
+ number of static iterations        1000
+ saving wfs every            0 static iterations
+ saving wfs every            0 dynamic steps
+ number of dynamic iterations           0
+ timestep=   5.0000000000000003E-002 units
+ dipoleshift or spindipoleshift
+ shift of electronic density by   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ zero initial ionic kinetic energy
+ photon pulses switched off
+ _______________________________________________
+
+ np(           1 )=          11
+ amu(          11 )=   23.000000000000000     
+  PsP parameters for ion:
+ch=   1.00000    
+amu=   23.0000    
+cc1=   0.00000    
+cc2=   0.00000    
+crloc=   0.00000    
+crs=   0.00000    
+chs=   0.00000    
+h0_11g=   0.00000    
+h0_12g= -1.000000E+20
+h0_22g=   0.00000    
+h0_33g=   0.00000    
+h1_11g=   0.00000    
+h1_22g=   0.00000    
+h2_11g=   0.00000    
+sgm1=  0.680986    
+sgm2=   1.16298    
+chg1=  -2.29156    
+chg2=   3.29162    
+r0g=   0.00000    
+r1g=   0.00000    
+r2g=   0.00000    
+radiong=   0.00000    
+ tblock= T
+ np(           2 )=          11
+ amu(          11 )=   23.000000000000000     
+  PsP parameters for ion:
+ch=   1.00000    
+amu=   23.0000    
+cc1=   0.00000    
+cc2=   0.00000    
+crloc=   0.00000    
+crs=   0.00000    
+chs=   0.00000    
+h0_11g=   0.00000    
+h0_12g= -1.000000E+20
+h0_22g=   0.00000    
+h0_33g=   0.00000    
+h1_11g=   0.00000    
+h1_22g=   0.00000    
+h2_11g=   0.00000    
+sgm1=  0.680986    
+sgm2=   1.16298    
+chg1=  -2.29156    
+chg2=   3.29162    
+r0g=   0.00000    
+r1g=   0.00000    
+r2g=   0.00000    
+radiong=   0.00000    
+ tblock= T
+ dx=  0.80000000000000004       optimal grid spacing =   10000000000.000000     
+sumion=           0.3525
+
+initial ionic positions and velocities:
+ion 1=   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+ion 2=   5.6730   0.0000   0.0000   0.0000   0.0000   0.0000
+
+ speact   0.0000000000000000      n           5 isp           2
+ no           0           0           0  0.14394593209414028       0.24473813818317178       0.24473813818317178     
+
+ speact  0.24473813818317178      n           6 isp           2
+ no           1           0           0  0.14394593209414028       0.24473813818317178       0.24473813818317178     
+
+ speact  0.24473813818317178      n           7 isp           2
+ no           0           1           0  0.14394593209414028       0.24473813818317178       0.24473813818317178     
+
+ speact  0.14394593209414028      n           8 isp           2
+ no           0           0           1  0.14394593209414028       0.24473813818317178       0.24473813818317178     
+ nstate ininqb           8
+  0 0 0     0.100E+01         0.000    1
+  1 0 0     0.000E+00         0.245    1
+  0 1 0     0.000E+00         0.245    1
+  0 0 1     0.000E+00         0.144    1
+  0 0 0     0.100E+01         0.000    2
+  1 0 0     0.000E+00         0.049    2
+  0 1 0     0.000E+00         0.049    2
+  0 0 1     0.000E+00         0.029    2
+after ordering:
+nstate,nelect  8  2
+after oscillator initialization:
+wf   1 occ      1.0000 sp 1 knots:  0  0  0
+wf   2 occ      0.0000 sp 1 knots:  1  0  0
+wf   3 occ      0.0000 sp 1 knots:  0  1  0
+wf   4 occ      0.0000 sp 1 knots:  0  0  1
+wf   5 occ      1.0000 sp 2 knots:  0  0  0
+wf   6 occ      0.0000 sp 2 knots:  1  0  0
+wf   7 occ      0.0000 sp 2 knots:  0  1  0
+wf   8 occ      0.0000 sp 2 knots:  0  0  1
+  0.0000 initial moments      2.0000     -2.8365      0.0000      0.0007
+
++++ start of static iteration +++
+
+iter,up/down,CPU=    1    1.0000    1.0000    0.2913    0.0291
+ times: step,diag,orth=    0.277    0.000    0.014    0.028    0.000    0.001
+iter,up/down,CPU=    2    1.0000    1.0000    0.2898    0.0289
+ times: step,diag,orth=    0.276    0.000    0.014    0.028    0.000    0.001
+iter,up/down,CPU=    3    1.0000    1.0000    0.2280    0.0228
+ times: step,diag,orth=    0.218    0.000    0.010    0.022    0.000    0.001
+iter,up/down,CPU=    4    1.0000    1.0000    0.1973    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=    5    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=    6    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=    7    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=    8    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=    9    1.0000    1.0000    0.2003    0.0200
+ times: step,diag,orth=    0.191    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   10    1.0000    1.0000    0.2649    0.0265
+ times: step,diag,orth=    0.255    0.000    0.010    0.026    0.000    0.001
+iter=    10
+binding energy=     -0.7869, moments: monop.,dip,quad=
+           2.00000     -0.60587      0.00000      0.00010     12.92768
+           9.66321     11.23584     -0.00001     -0.00028      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   11    1.0000    1.0000    0.1980    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   12    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   13    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   14    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   15    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   16    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   17    1.0000    1.0000    0.1972    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   18    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   19    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   20    1.0000    1.0000    0.2636    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=    20
+binding energy=     -0.8097, moments: monop.,dip,quad=
+           2.00000     -0.15079      0.00000      0.00000      9.61982
+           6.82415      6.99732     -0.00000     -0.00001      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   21    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   22    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   23    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   24    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   25    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   26    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   27    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   28    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   29    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   30    1.0000    1.0000    0.2639    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=    30
+binding energy=     -0.8096, moments: monop.,dip,quad=
+           2.00000     -0.04667      0.00000      0.00000      9.14213
+           6.40652      6.43958     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   31    1.0000    1.0000    0.1983    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   32    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   33    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   34    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   35    1.0000    1.0000    0.1985    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   36    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   37    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   38    1.0000    1.0000    0.1973    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   39    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   40    1.0000    1.0000    0.2634    0.0263
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=    40
+binding energy=     -0.8094, moments: monop.,dip,quad=
+           2.00000     -0.01531      0.00000     -0.00000      9.04642
+           6.32321      6.33090     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   41    1.0000    1.0000    0.1980    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   42    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   43    1.0000    1.0000    0.1985    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   44    1.0000    1.0000    0.1973    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   45    1.0000    1.0000    0.1985    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   46    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   47    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   48    1.0000    1.0000    0.1988    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   49    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   50    1.0000    1.0000    0.6812    0.0681
+ times: step,diag,orth=    0.254    0.000    0.427    0.025    0.000    0.043
+iter=    50
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00552     -0.00000     -0.00000      9.02324
+           6.30414      6.30601     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   51    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   52    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   53    1.0000    1.0000    0.1973    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   54    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   55    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   56    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   57    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   58    1.0000    1.0000    0.1985    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   59    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   60    1.0000    1.0000    0.6837    0.0684
+ times: step,diag,orth=    0.255    0.000    0.429    0.026    0.000    0.043
+iter=    60
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000     -0.00215      0.00000      0.00000      9.01873
+           6.29984      6.30030     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   61    1.0000    1.0000    0.1980    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   62    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   63    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   64    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   65    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   66    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   67    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   68    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   69    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   70    1.0000    1.0000    0.6828    0.0683
+ times: step,diag,orth=    0.255    0.000    0.428    0.026    0.000    0.043
+iter=    70
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00080      0.00000     -0.00000      9.01733
+           6.29875      6.29886     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   71    1.0000    1.0000    0.1983    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   72    1.0000    1.0000    0.1986    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   73    1.0000    1.0000    0.1980    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   74    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   75    1.0000    1.0000    0.1984    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   76    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   77    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   78    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   79    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   80    1.0000    1.0000    0.2637    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=    80
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00024      0.00000     -0.00000      9.01703
+           6.29850      6.29853      0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   81    1.0000    1.0000    0.6155    0.0615
+ times: step,diag,orth=    0.188    0.000    0.428    0.019    0.000    0.043
+iter,up/down,CPU=   82    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   83    1.0000    1.0000    0.1983    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   84    1.0000    1.0000    0.1976    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   85    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   86    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   87    1.0000    1.0000    0.2027    0.0203
+ times: step,diag,orth=    0.193    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   88    1.0000    1.0000    0.1983    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   89    1.0000    1.0000    0.1981    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   90    1.0000    1.0000    0.2646    0.0264
+ times: step,diag,orth=    0.255    0.000    0.010    0.026    0.000    0.001
+iter=    90
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000     -0.00009      0.00000      0.00000      9.01696
+           6.29844      6.29845     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=   91    1.0000    1.0000    0.1984    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   92    1.0000    1.0000    0.6165    0.0617
+ times: step,diag,orth=    0.188    0.000    0.429    0.019    0.000    0.043
+iter,up/down,CPU=   93    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   94    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   95    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   96    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   97    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   98    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=   99    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  100    1.0000    1.0000    0.2640    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=   100
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00003      0.00000      0.00000      9.01694
+           6.29842      6.29843     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  101    1.0000    1.0000    0.1976    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  102    1.0000    1.0000    0.1980    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  103    1.0000    1.0000    0.6160    0.0616
+ times: step,diag,orth=    0.188    0.000    0.428    0.019    0.000    0.043
+iter,up/down,CPU=  104    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  105    1.0000    1.0000    0.1972    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  106    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  107    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  108    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  109    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  110    1.0000    1.0000    0.2637    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=   110
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000     -0.00001      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  111    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  112    1.0000    1.0000    0.1973    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  113    1.0000    1.0000    0.1972    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  114    1.0000    1.0000    0.6158    0.0616
+ times: step,diag,orth=    0.188    0.000    0.428    0.019    0.000    0.043
+iter,up/down,CPU=  115    1.0000    1.0000    0.1971    0.0197
+ times: step,diag,orth=    0.187    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  116    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  117    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  118    1.0000    1.0000    0.1984    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  119    1.0000    1.0000    0.1981    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  120    1.0000    1.0000    0.2644    0.0264
+ times: step,diag,orth=    0.255    0.000    0.010    0.026    0.000    0.001
+iter=   120
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00001      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000      0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  121    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  122    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  123    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  124    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  125    1.0000    1.0000    0.1977    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  126    1.0000    1.0000    0.6202    0.0621
+ times: step,diag,orth=    0.189    0.000    0.432    0.019    0.000    0.043
+iter,up/down,CPU=  127    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  128    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  129    1.0000    1.0000    0.1972    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  130    1.0000    1.0000    0.2638    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.026    0.000    0.001
+iter=   130
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000     -0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  131    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  132    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  133    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  134    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  135    1.0000    1.0000    0.1979    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  136    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  137    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  138    1.0000    1.0000    0.6158    0.0615
+ times: step,diag,orth=    0.187    0.000    0.428    0.019    0.000    0.043
+iter,up/down,CPU=  139    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  140    1.0000    1.0000    0.2647    0.0265
+ times: step,diag,orth=    0.255    0.000    0.010    0.026    0.000    0.001
+iter=   140
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  141    1.0000    1.0000    0.1981    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  142    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  143    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  144    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  145    1.0000    1.0000    0.1970    0.0197
+ times: step,diag,orth=    0.187    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  146    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  147    1.0000    1.0000    0.1982    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  148    1.0000    1.0000    0.1979    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  149    1.0000    1.0000    0.1975    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  150    1.0000    1.0000    0.6824    0.0682
+ times: step,diag,orth=    0.255    0.000    0.428    0.025    0.000    0.043
+iter=   150
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  151    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  152    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  153    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  154    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  155    1.0000    1.0000    0.1981    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  156    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  157    1.0000    1.0000    0.1973    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  158    1.0000    1.0000    0.1977    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  159    1.0000    1.0000    0.1979    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  160    1.0000    1.0000    0.2640    0.0264
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=   160
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  161    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  162    1.0000    1.0000    0.6157    0.0616
+ times: step,diag,orth=    0.188    0.000    0.428    0.019    0.000    0.043
+iter,up/down,CPU=  163    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  164    1.0000    1.0000    0.1988    0.0199
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  165    1.0000    1.0000    0.1976    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  166    1.0000    1.0000    0.1974    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  167    1.0000    1.0000    0.1975    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  168    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  169    1.0000    1.0000    0.1979    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  170    1.0000    1.0000    0.2647    0.0264
+ times: step,diag,orth=    0.255    0.000    0.010    0.026    0.000    0.001
+iter=   170
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+iter,up/down,CPU=  171    1.0000    1.0000    0.1984    0.0198
+ times: step,diag,orth=    0.189    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  172    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  173    1.0000    1.0000    0.1974    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  174    1.0000    1.0000    0.6186    0.0619
+ times: step,diag,orth=    0.190    0.000    0.429    0.019    0.000    0.043
+iter,up/down,CPU=  175    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  176    1.0000    1.0000    0.1972    0.0197
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  177    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  178    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  179    1.0000    1.0000    0.1978    0.0198
+ times: step,diag,orth=    0.188    0.000    0.010    0.019    0.000    0.001
+iter,up/down,CPU=  180    1.0000    1.0000    0.2635    0.0263
+ times: step,diag,orth=    0.254    0.000    0.010    0.025    0.000    0.001
+iter=   180
+binding energy=     -0.8093, moments: monop.,dip,quad=
+           2.00000      0.00000      0.00000      0.00000      9.01693
+           6.29842      6.29842     -0.00000     -0.00000      0.00000
+spindipole    0.0000    0.0000    0.0000
+  static iteration terminated with          180  iterations
