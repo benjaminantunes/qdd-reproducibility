@@ -23,3 +23,13 @@ sub-directory 'examples':
   use 'unxz'.
 
 
+All experiments are located in /bin folder. 
+There is 50 replications (measurment of time and consumption) for each experiment.
+There is a jupyter notebook to guide you in the workflow.
+
+The compilation is located in src/qdd, with makefile. This is where we compiled each experiment.
+
+You need to install gfortran, ifort and ifx compiler.
+You also need to install FFTW3 and MKL.
+
+All are free.
